@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+Honestly, I feel bad that I didn't know about this File comparison, and I always
+had to compare the differences manually which was time consuming. Now, I am
+pretty confident that I can identify issues in my file and resolve it using
+few command lines with the help of terminals like GIT shell.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+It's always safe to assume, that we may need the files that we created long back
+, and even we don't remember when. Storing information for long duration is
+something that we do it all the time. So when me or someone else corrupt the
+files that belongs to me, say a new entry level developer like me corrupted
+a file without knowing, it will give the senior developer to have a flexibility
+of restoring it to previous versions and to prevent loss of data is vital to
+any level of organization.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+Manually Commit
+Pros - It's always in our hand to decide when to chose commit, like we can
+commit after making any major change.
+Cons - Sometimes we tend to consider a minor task as major update and commit it,
+where actually we don't need it.
+Versions Automatically getting saved in Google Docs
+Pros - it's good to have all versions of our file being saved and updated, so
+that we can restore our file to whichever versions we require at the time.
+Cons - Too much of memory getting wasted for irrelevant changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+So, Git allows saving multiple files, because to maintain reliability of all
+documents related to each other.
+When it comes to google docs, I literally have no idea why they do it, but I
+kind of thinking that the risk of corrupting one single document is much better
+than corrupting whole lot of documents.
+
+How can you use the commands git log and git diff to view the history of files?
+git log - Used to check all the log files and then we can copy the commit ID's
+and we can compare the files using 'git diff' command.
+
+How might using version control make you more confident to make changes that
+could break something?
+Version controls allows us to understand where exactly the issue was arised
+and using git diff commands we can even find out the issue and resolve it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I started using github just now, so whenever i create projects I use github to
+apply version control and help doing my projects risk free while exploring all
+possible options.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging area is a place where you can work on files before committing to
+working directory. And before all this first thing we should do is initializing
+the repository, and then add the files we want to track the status of then it
+will be organized. It offers a flexibility or organizing the files that we want
+to commit first.
