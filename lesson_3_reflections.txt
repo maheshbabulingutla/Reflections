@@ -1,0 +1,7 @@
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Forks- It can be used to copy repository on github
+clone- it clones the repository but not the commit history
+Branches - we can use branches to save all commit history in one Master Branch
+file.

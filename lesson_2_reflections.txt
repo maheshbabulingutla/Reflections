@@ -1,0 +1,36 @@
+How can you use the staging area to make sure you have one commit per logical
+change?
+Solution: Main reason we use staging area is to decide on what files we need
+to add, and make sure both are relevant to each other, and then can commit once
+we are sure, that all files that are included in staging area needs to be
+committed.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+Solution: We can use branches to keep our commits constrained to the directory
+that we will be working on, rather than committing unnecessary files on some
+other branch.
+Branches are helpful to keep our commit conditions limited to file and branch we
+will be working on.
+Interview with Mike Wales {
+New Branch - Different piece of work (Like correcting bugs)
+Keeping project organized(Master branch helps project in way that never breaks)
+Branches - Collaborating Publicly
+            Context Switch and compartmentalize
+            Project Organized
+            New Master for Every branch fix
+            once fixing complete can update to main branch
+}
+
+How do the diagrams help you visualize the branch structure?
+Solutions: I couldn't draw the diagram all by myself, or to be honest, I didn't
+even know where to begin, but with the way she explained I understood most of
+it. I think, I should start creating picture in my mind once looking at the
+question.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Solution: Once merging the two branches together, there's no need for us to
+keep two separate branches. We can merge two merges and delete the other two
+while keeping the master branch which has all commits once merging two different
+branches.
